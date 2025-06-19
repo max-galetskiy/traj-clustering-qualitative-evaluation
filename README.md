@@ -34,7 +34,7 @@ We used the following five datasets (all of which can easily be transformed into
 If you wish to use these datasets in your work, please refer to the citation guidelines provided by these datasets.
 
 ## Distance Matrices
-Our clustering code excepts distance matrices to already be precomputed and stored in `.json` files (located in `data/similarities/`). To compute these distance matrices yourself, follow these steps:
+Our clustering code expects distance matrices to already be precomputed and stored in `.json` files (located in `data/similarities/`). To compute these distance matrices yourself, follow these steps:
 1. Put the transformed `.csv` files of the datasets into `data/datasets/`
 2. Comment out line 26 in `experiments/sim_matrix_computation.py` (Or adjust `data/datasets/metadata.csv` to your liking)
 3. Run `experiments/sim_matrix_computation.py`
